@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "birds-eye"
+version = "0.1.0"
+description = ""
+authors = ["Hirahara Taiki <hirahara.taiki@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = ">=3.7.1,<3.11"
+numpy = "^1.20"
+pandas = "^1.1"
+opencv-python = "^4.5.5"
+SQLAlchemy = "^1.4.31"
+PySide2 = "^5.15.2"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
